@@ -46,7 +46,7 @@ export default async () => {
   let calendrierInfo;
   try {
     let res = await fetch(
-      `https://nico14916.github.io/PolyHoraireICS/sessions/${session}.txt`
+      `https://achillesth.github.io/PolyHoraireICS/sessions/${session}.txt`
     );
     calendrierInfo = await res.text();
   } catch (err) {
